@@ -461,6 +461,7 @@ h6 {
   transition: ease-in-out 0.3s;
   border: 1px solid rgba(255, 255, 255, 0.3);
   height: 100%;
+  
   text-align: center;
 }
 
@@ -479,17 +480,20 @@ h6 {
   line-height: 26px;
 }
 
-#hero .icon-box h3 a {
+#hero .icon-box h3{
   color: #fff;
   transition: ease-in-out 0.3s;
 }
 
-#hero .icon-box h3 a:hover {
+#hero .icon-box h3:hover{
   color: #ffc451;
+  
+  cursor: default;
 }
 
 #hero .icon-box:hover {
   border-color: #ffc451;
+  transform: translateY(-4px);
 }
 
 @media (min-width: 1024px) {
