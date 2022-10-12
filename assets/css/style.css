@@ -159,7 +159,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 100px;
 }
 
 /*--------------------------------------------------------------
@@ -592,13 +592,11 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  padding-top: 20px;
+  padding-top: 25px;
 }
 
 .clients .swiper-slide img {
-  opacity: 0.5;
-  transition: 0.3s;
-  filter: grayscale(100);
+  transition: 0.2s;
 }
 
 .clients .swiper-slide img:hover {
@@ -607,7 +605,7 @@ section {
 }
 
 .clients .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 40px;
   position: relative;
 }
 
@@ -1139,13 +1137,14 @@ section {
 --------------------------------------------------------------*/
 .team {
   background: #fff;
-  padding: 60px 0;
+
 }
 
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 5px;
+  width:200px;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
@@ -1153,6 +1152,7 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
+  
 }
 
 .team .member .social {
@@ -1196,8 +1196,8 @@ section {
 
 .team .member .member-info h4 {
   font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 18px;
+  margin-bottom: 10px;
+  font-size: 15px;
   color: #151515;
 }
 
