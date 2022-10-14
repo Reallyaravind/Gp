@@ -1007,7 +1007,7 @@ section {
 .counts .content .count-box a:hover {
   color: #626262;
 }
-.counts .carousel-indicators .button{
+.counts .carousel-indicators button{
   color: black;
 }
 .counts .image {
